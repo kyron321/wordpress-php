@@ -1,6 +1,6 @@
 <?php
 get_header();
-pageBanner()
+pageBanner();
 while (have_posts()) {
     the_post(); 
     ?>
